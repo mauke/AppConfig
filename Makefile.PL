@@ -59,7 +59,7 @@ my %config = (
 );
 
 ## for PPD on win32
-if ($] ge '5.005') {
+if ($] >= 5.005) {
     $config{ AUTHOR   } = 'Andy Wardley <abw@wardley.org>',
     $config{ ABSTRACT } = 'AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments.';
 }
